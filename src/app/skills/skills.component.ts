@@ -11,27 +11,27 @@ export class SkillsComponent implements OnInit {
     {
       name: 'Angular, Angular Material',
       level: 'Intermediate',
-      rating: 5,
+      rating: 85,
     },
     {
       name: 'Angular, Angular Material',
       level: 'Intermediate',
-      rating: 5,
+      rating: 70,
     },
     {
       name: 'Angular, Angular Material',
       level: 'Intermediate',
-      rating: 5,
+      rating: 90,
     },
     {
       name: 'Angular, Angular Material',
       level: 'Intermediate',
-      rating: 5,
+      rating: 90,
     },
     {
       name: 'Angular, Angular Material',
       level: 'Intermediate',
-      rating: 5,
+      rating: 100,
     },
   ];
   constructor() {}

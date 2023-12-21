@@ -1,1 +1,15 @@
-<p>skills works!</p>
+<div class="container">
+  <h1>Skills</h1>
+
+  <section *ngFor="let element of skills">
+    <h2>{{element.name}}</h2>
+    <h4>{{element.level}}</h4>
+
+    <div class="rating">
+      <div class="bar">
+        <div [ngStyle]="{'width': element.rating + '%'}"></div>
+      </div>
+      <div>{{element.rating}}%</div>
+    </div>
+  </section>
+</div>
