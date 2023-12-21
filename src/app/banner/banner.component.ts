@@ -6,4 +6,8 @@ import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
   templateUrl: './banner.component.html',
   styleUrls: ['./banner.component.css'],
 })
-export class BannerComponent {}
+export class BannerComponent implements OnInit {
+  constructor(private breakpointObserver: BreakpointObserver) {}
+
+  ngOnInit(): void {}
+}
